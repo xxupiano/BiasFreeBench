@@ -14,7 +14,7 @@
 
 
 
-<div align=center><img src="assets/overview.png" width="70%"/></div>
+<div align=center><img src="assets/overview.png" width="100%"/></div>
 
 
 **BiasFreeBench** is an empirical benchmark that comprehensively compares eight mainstream bias mitigation techniques (covering four prompting-based and four training-based methods) on two test scenarios (multi-choice QA and open-ended multi-turn QA) by reorganizing existing datasets into a unified query-response setting. We hope that this benchmark can serve as a unified testbed for bias mitigation methods.
@@ -42,14 +42,14 @@ pip install vllm==0.8.5 deepspeed==0.15.4 pandas wandb
 
 <h2 id="2">💬 Prompting-based Methods and Evaluation</h2>
 
-<div align=center><img src="assets/prompting.png" width="70%"/></div>
+<div align=center><img src="assets/prompting.png" width="100%"/></div>
 
 - Some example scripts, covering all debiasing methods explored in BiasFreeBench, for Llama-3.1-8B-Instruct is in `BBQ/scripts/llama.sh` and `FairMT-Bench/scripts/llama.sh`
 - When using a reasoning LLM, please set `--max_output_len`, `--temperature`, `--top_p`, `--top_k`, and `--min_p` as the official suggestions of the corresponding models. For example, for Qwen3-8B, we set `--max_output_len 32768 --temperature 0.6 --top_p 0.95 --top_k 20 --min_p 0` based on the sampling parameters suggested in the [Qwen-3B model card](https://huggingface.co/Qwen/Qwen3-8B).
 
 <h2 id="3">💻 Training-based Methods</h2>
 
-<div align=center><img src="assets/Method.png" width="70%"/></div>
+<div align=center><img src="assets/Method.png" width="100%"/></div>
 
 
 
