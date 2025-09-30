@@ -19,6 +19,7 @@
 
 **BiasFreeBench** is an empirical benchmark that comprehensively compares eight mainstream bias mitigation techniques (covering four prompting-based and four training-based methods) on two test scenarios (multi-choice QA and open-ended multi-turn QA) by reorganizing existing datasets into a unified query-response setting. We hope that this benchmark can serve as a unified testbed for bias mitigation methods.
 
+<br><br>
 ## 📌 Table of Contents
 
 - [🛠️ Setup](#1)
@@ -27,6 +28,8 @@
 - [💻 Training-based Methods](#3)
 - [📝 Citation](#4)
 - [✨ Acknowledgements](#5)
+
+<br><br>
 
 <h2 id="1">🛠️ Setup</h2>
 
