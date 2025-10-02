@@ -112,7 +112,8 @@ bash scripts/ppo-lag.sh \
 @article{biasfreebench25,
     title={BiasFreeBench: a Benchmark for Mitigating Bias in Large Language Model Responses},
     author={Xin Xu, Xunzhi He, Churan Zhi, Ruizhe Chen, Julian McAuley, Zexue He},
-    year={2025}
+    year={2025},
+    url={https://arxiv.org/pdf/2510.00232}
 }
 ```
 <br>
