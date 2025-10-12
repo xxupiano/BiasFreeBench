@@ -8,7 +8,7 @@
 
 
 <p align="center">
-  <a href="">📃 Paper</a> 
+  <a href="https://www.arxiv.org/pdf/2510.00232">📃 Paper</a> 
   <a href="https://github.com/xxupiano/BiasFreeBench">💻 Code</a> 
 </p>
 
